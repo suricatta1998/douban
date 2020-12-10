@@ -3,6 +3,8 @@
 ## 安装
 
 ```bash
+$ git clone https://github.com/suricatta1998/douban.git
+$ cd douban
 $ pip install -r requirements.txt
 ```
 
