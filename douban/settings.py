@@ -87,6 +87,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-
+# 数据库文件
 SQLITE_FILE = 'db.sqlite3'
+# 图片文件夹
 IMAGES_DIR = 'images'
