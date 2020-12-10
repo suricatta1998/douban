@@ -6,7 +6,13 @@
 import scrapy
 
 
-class DoubanItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class Top100Item(scrapy.Item):
+    no = scrapy.Field()
+    title = scrapy.Field()
+    director = scrapy.Field()
+    starrings = scrapy.Field()
+    movie_type = scrapy.Field()
+    region = scrapy.Field()
+    years = scrapy.Field()
+    cover_image = scrapy.Field()
+    
